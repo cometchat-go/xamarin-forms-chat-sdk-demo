@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CometChatFormSample" x:Class="CometChatFormSample.MainPage">
+
+    <StackLayout Spacing="10"  Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+        <Button x:Name="InitialiseCometChat" Clicked="OnInitializeCometChat" Text="INITIALISE COMETCHAT" BackgroundColor="Silver" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black"></Button>
+         <StackLayout Orientation="Horizontal" Spacing="10">
+         <Button x:Name="btnLoginSuperHero1" Clicked="OnLoginSuperHero1" Text="LOGIN AS SUPERHERO1" BackgroundColor="Silver" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black"></Button>
+         <Button x:Name="btnLoginSuperHero2" Clicked="OnLoginSuperHero2" Text="LOGIN AS SUPERHERO1" BackgroundColor="Silver" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black"></Button>
+        </StackLayout>
+     <Button x:Name="btnlaunchCometChat" Clicked="OnLaunchCometChat" Text="LAUNCH COMETCHAT" BackgroundColor="Silver" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black"></Button>
+    
+    </StackLayout>
+</ContentPage>
