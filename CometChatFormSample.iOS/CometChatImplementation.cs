@@ -52,7 +52,7 @@ namespace CometChatFormSample.iOS
 
         public void loginWithUID(string UID, CometChatFormCallback callback)
         {
-            cometchat.Login(UID, (dict) => { callback.SuccessCallback(dict.ToString());}, (err) => { callback.FailCallback(err.ToString()); /* code block */ });
+            cometchat.loginWithUID(UID, (dict) => { callback.SuccessCallback(dict.ToString());}, (err) => { callback.FailCallback(err.ToString()); /* code block */ });
         }
     }
 }
