@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>CometChatFormSample</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.inscripts.cometchat.CometChatFormSample</string>
+	<string>com.inscripts.cometchat.dev1</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
@@ -34,5 +34,19 @@
 	<string>CometChatFormSample</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>CometChatFormSample wants to access Media library</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>CometChatFormSample wants to access Microphone</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>CometChatFormSample wants to access Photo Library</string>
+	<key>NSCameraUsageDescription</key>
+	<string>CometChatFormSample wants to access Camera</string>
 </dict>
 </plist>

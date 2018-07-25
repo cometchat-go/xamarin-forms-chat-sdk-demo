@@ -10,8 +10,8 @@ namespace CometChatFormSample
     public partial class MainPage : ContentPage
     {
         String siteurl = "";
-        String licenseKey = "COMETCHAT-XXXX-XXXX-XXXX-XXXX"; // Replace the value with your CometChat License Key here
-        String apiKey = "xxxxxxxxxxxxxxxxxxxxxx"; // Replace the value with your CometChat API Key here
+        String licenseKey = "COMETCHAT-XXXXX-XXXXX-XXXXX-XXXXX"; // Replace the value with your CometChat License Key here
+        String apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // Replace the value with your CometChat API Key here
         Boolean isCometOnDemand = true;
         private String UID1 = "SUPERHERO1";
         private String UID2 = "SUPERHERO2";
@@ -140,6 +140,7 @@ namespace CometChatFormSample
             if (onUserInfo != null)
             {
                 System.Console.WriteLine("OnUserInfo " + onUserInfo.ToString());
+
             }
         }
 
