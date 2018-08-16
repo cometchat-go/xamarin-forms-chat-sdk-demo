@@ -11,7 +11,7 @@ namespace CometChatFormSample
     {
         String siteurl = "";
         String licenseKey = "COMETCHAT-XXXXX-XXXXX-XXXXX-XXXXX"; // Replace the value with your CometChat License Key here
-        String apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // Replace the value with your CometChat API Key here
+        String apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; // Replace the value with your CometChat API Key here
         Boolean isCometOnDemand = true;
         private String UID1 = "SUPERHERO1";
         private String UID2 = "SUPERHERO2";

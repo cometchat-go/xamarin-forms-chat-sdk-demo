@@ -162,10 +162,17 @@
       <HintPath>..\packages\Xamarin.Firebase.Auth.60.1142.1\lib\MonoAndroid80\Xamarin.Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="cometchatbindingapp">
-      <HintPath>..\packages\Xamarin.Android.CometChat.7.1.0\lib\monoandroid\cometchatbindingapp.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Android.CometChat.7.7.0\lib\monoandroid\cometchatbindingapp.dll</HintPath>
     </Reference>
     <Reference Include="CometChatUIBinding">
-      <HintPath>..\packages\Xamarin.Android.CometChat.7.1.0\lib\monoandroid\CometChatUIBinding.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Android.CometChat.UI.7.7.0\lib\monoandroid\CometChatUIBinding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Constraint.Layout.Solver">
+      <HintPath>..\packages\Xamarin.Android.Support.Constraint.Layout.Solver.1.1.2\lib\MonoAndroid70\Xamarin.Android.Support.Constraint.Layout.Solver.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Constraint.Layout">
+      <HintPath>..\packages\Xamarin.Android.Support.Constraint.Layout.1.1.2\lib\MonoAndroid70\Xamarin.Android.Support.Constraint.Layout.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,32 +1,19 @@
-﻿<Properties StartupConfiguration="{799518C1-45E9-461A-98CE-D4A06E3A58AF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CometChatFormSample.iOS/Info.plist">
+﻿<Properties StartupConfiguration="{A44F83E6-2D0A-4B07-9D86-97D0BA3A6A90}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CometChatFormSample/MainPage.xaml.cs">
     <Files>
-      <File FileName="CometChatFormSample.iOS/AppDelegate.cs" Line="26" Column="42" />
-      <File FileName="CometChatFormSample.iOS/CometChatImplementation.cs" Line="31" Column="41" />
-      <File FileName="CometChatFormSample/MainPage.xaml.cs" Line="14" Column="64" />
+      <File FileName="CometChatFormSample.iOS/AppDelegate.cs" Line="27" Column="71" />
+      <File FileName="CometChatFormSample.iOS/CometChatImplementation.cs" Line="53" Column="71" />
+      <File FileName="CometChatFormSample/MainPage.xaml.cs" Line="14" Column="57" />
       <File FileName="CometChatFormSample.iOS/Main.cs" Line="10" Column="29" />
       <File FileName="CometChatFormSample.iOS/Info.plist" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CometChatFormSample" expanded="True">
-            <Node name="CometChatFormSample" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" />
-            </Node>
-            <Node name="CometChatFormSample.iOS" expanded="True">
-              <Node name="Info.plist" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
   <MonoDevelop.Ide.ItemProperties.CometChatFormSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.6a91b4f89b27a5c8bf6b4c5169b63e8bb876d5b3" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CometChatFormSample.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
 </Properties>
