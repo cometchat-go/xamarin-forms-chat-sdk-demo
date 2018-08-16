@@ -32,7 +32,6 @@ namespace CometChatFormSample.iOS
             readyUI = new readyUIFIle();
             User user = Auth.DefaultInstance.CurrentUser;
             Database database = Database.DefaultInstance;
-            CrossFirebasePushNotification.Current.Subscribe("ScaredGames");
             CrossFirebasePushNotification.Current.OnNotificationReceived += (s, p) =>
             {
 
