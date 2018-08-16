@@ -13,13 +13,15 @@ To add the CometChat android package,
 
     a. Expand the `CometChatFormSample.Android` project
     b. Right-click on the packages folder and click on `Add packages`.
-    c. Search for `Xamarin.Android.CometChat` package and add it to your project.
+    c. Search for `Xamarin.Android.CometChat` package and add it to your project.    
+    d. Search for `Xamarin.Android.CometChat.UI` package and add it to your project.
 
 Similarly, for iOS,
 
     a. Expand the `CometChatFormSample.iOS` project
     b. Right-click on the packages folder and click on `Add packages`.
     c. Search for `Xamarin.iOS.CometChat` package and add it to your project.
+    d. Search for `Xamarin.iOS.CometChat.UI` package and add it to your project.
 
 Now you can run the sample app both in android and iOS devices.
 
