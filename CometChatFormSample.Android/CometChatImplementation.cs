@@ -48,6 +48,18 @@ namespace CometChatFormSample.Droid
                 System.Console.Write("Conetext Null");
             }
         }
+
+        public void launchCometChatWithId(bool isFullScreen, String userOrGroupId, bool isGroup, bool setBackButton, CometChatLaunchCallbacks launchCallbacks)
+        {
+            if (context != null)
+            {
+                cometchat.LaunchCometChat((Android.App.Activity)context, isFullScreen, userOrGroupId, isGroup, setBackButton, new LaunchCallbacks(successObj => launchCallbacks.SuccessCallback((string)successObj), fail => launchCallbacks.FailCallback((string)fail), onChatroomInfo => launchCallbacks.ChatroomInfoCallback((string)onChatroomInfo), onError => launchCallbacks.ErrorCallback((string)onError), onLogout => launchCallbacks.LogoutCallback((string)onLogout), onMessageReceive => launchCallbacks.MessageReceiveCallback((string)onMessageReceive), onUserInfo => launchCallbacks.UserInfoCallback((string)onUserInfo), onWindowClose => launchCallbacks.WindowCloseCallback((string)onWindowClose)));
+            }
+            else
+            {
+                System.Console.Write("Conetext Null");
+            }
+        }
     }
 
 }

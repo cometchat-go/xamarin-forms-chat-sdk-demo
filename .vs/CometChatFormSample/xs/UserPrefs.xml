@@ -1,11 +1,15 @@
 ﻿<Properties StartupConfiguration="{A44F83E6-2D0A-4B07-9D86-97D0BA3A6A90}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CometChatFormSample/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="CometChatFormSample.iOS/AppDelegate.cs" Line="27" Column="71" />
-      <File FileName="CometChatFormSample.iOS/CometChatImplementation.cs" Line="53" Column="71" />
-      <File FileName="CometChatFormSample/MainPage.xaml.cs" Line="14" Column="57" />
+      <File FileName="CometChatFormSample/MainPage.xaml.cs" Line="87" Column="34" />
       <File FileName="CometChatFormSample.iOS/Main.cs" Line="10" Column="29" />
-      <File FileName="CometChatFormSample.iOS/Info.plist" />
+      <File FileName="CometChatFormSample.Android/CometChatImplementation.cs" Line="53" Column="10" />
+      <File FileName="CometChatFormSample/LaunchCallbackImplementation.cs" Line="1" Column="1" />
+      <File FileName="CometChatFormSample/CometChatInterface.cs" Line="9" Column="65" />
+      <File FileName="CometChatFormSample/CometChatLaunchCallbacks.cs" Line="1" Column="1" />
+      <File FileName="CometChatFormSample.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="CometChatFormSample.iOS/CometChatImplementation.cs" Line="56" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
