@@ -163,34 +163,34 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>3.0.0.561731</Version>
+      <Version>3.3.0.967583</Version>
     </PackageReference>
     <PackageReference Include="Plugin.FirebasePushNotification">
-      <Version>2.3.0</Version>
+      <Version>2.3.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.Analytics">
-      <Version>4.0.5.1</Version>
+      <Version>5.1.4</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.InstanceID">
-      <Version>2.0.8</Version>
+      <Version>3.2.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.Core">
-      <Version>4.0.13.1</Version>
+      <Version>5.1.3</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.CloudMessaging">
-      <Version>2.0.8.1</Version>
+      <Version>3.1.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.Auth">
-      <Version>4.4.1.1</Version>
+      <Version>5.0.4</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Firebase.iOS.Database">
-      <Version>4.1.3.1</Version>
+      <Version>5.0.3</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.iOS.CometChat">
-      <Version>7.6.0</Version>
+      <Version>7.20.0</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.iOS.CometChat.UI">
-      <Version>7.6.0</Version>
+      <Version>7.20.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
